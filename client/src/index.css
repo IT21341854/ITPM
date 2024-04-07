@@ -1,0 +1,168 @@
+/* <------------ singup page --------------> */
+@keyframes mymove {
+    from {
+        margin-left: -200px;
+        opacity: 0;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+.wrapper {
+    background: #152E6D;
+    padding: 0 20px 0 20px;
+}
+
+.warapper2 {
+    background-color: white;
+    /* margin-left: -1%; */
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.side-image {
+    background-image: url("../src/images/singup.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 200px;
+
+}
+
+.row {
+    width: 100%;
+    background-color: white;
+    height: 80vh;
+    overflow-x: hidden;
+}
+
+.wrapper-row {
+    animation: mymove 0.4s ease-in-out;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* overflow-x: hidden;
+    height: 300px; */
+}
+
+.row.g-3 {
+    height: 81vh;
+    width: 100%;
+}
+
+.input-box {
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+
+.button {
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-bottom: 20px;
+
+}
+
+.submit {
+    border: none;
+    outline: none;
+    height: 45px;
+    background: #0093FF;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.submit:hover {
+    background: #152E6D;
+    color: #fff;
+}
+
+/* <------------ Login page --------------> */
+
+.loginWrapper {
+    background: white;
+    display: flex;
+}
+
+.loginWarapper2 {
+    background-color: #152E6D;
+    /* margin-left: -1%; */
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    left: 0;
+}
+
+.loginmain {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.loginrow {
+    width: 100%;
+    background-image: url("../src/images/login.png");
+    background-color: #d7b3b3;
+    height: 80vh;
+    background-size: 650px;
+    overflow-x: hidden;
+}
+
+.loginwrapper-row {
+    animation: mymove 0.4s ease-in-out;
+}
+
+.formside {
+    background-color: rgb(113, 61, 234);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.loginright {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+
+}
+
+.logininput-box {
+    padding-top: 1%;
+    width: 400px;
+    box-sizing: border-box;
+
+
+}
